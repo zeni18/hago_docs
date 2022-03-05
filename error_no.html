@@ -1,0 +1,952 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>全局错误码 · 社交圈</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="zeni18">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="structure.html" />
+    
+    
+    <link rel="prev" href="modify_record.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    规范约定
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="modify_record.html">
+            
+                <a href="modify_record.html">
+            
+                    
+                    修改记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2" data-path="error_no.html">
+            
+                <a href="error_no.html">
+            
+                    
+                    全局错误码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="structure.html">
+            
+                <a href="structure.html">
+            
+                    
+                    请求和返回公共结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="header_sign.html">
+            
+                <a href="header_sign.html">
+            
+                    
+                    Header头签名和版本说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="api.html">
+            
+                <a href="api.html">
+            
+                    
+                    API列表
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" >
+            
+                <span>
+            
+                    
+                    Auth
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="login.html">
+            
+                <a href="login.html">
+            
+                    
+                    短信登陆
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="login.html">
+            
+                <a href="login.html">
+            
+                    
+                    密码登陆
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.3" data-path="register.html">
+            
+                <a href="register.html">
+            
+                    
+                    短信注册
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.4" data-path="reset_password.html">
+            
+                <a href="reset_password.html">
+            
+                    
+                    重制密码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.5" data-path="code.html">
+            
+                <a href="code.html">
+            
+                    
+                    发送短信
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="posts.html">
+            
+                <a href="posts.html">
+            
+                    
+                    发布动态
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="image.html">
+            
+                <a href="image.html">
+            
+                    
+                    上传图片资源
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="visitors.html">
+            
+                <a href="visitors.html">
+            
+                    
+                    动态留言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="dynamic.html">
+            
+                <a href="dynamic.html">
+            
+                    
+                    动态点赞
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="user_list.html">
+            
+                <a href="user_list.html">
+            
+                    
+                    获取用户列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="user_desc.html">
+            
+                <a href="user_desc.html">
+            
+                    
+                    获取用户详情
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="share.html">
+            
+                <a href="share.html">
+            
+                    
+                    分享接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="me.html">
+            
+                <a href="me.html">
+            
+                    
+                    我的资料
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="message.html">
+            
+                <a href="message.html">
+            
+                    
+                    我的消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="subscribe.html">
+            
+                <a href="subscribe.html">
+            
+                    
+                    我的关注列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="me.html">
+            
+                <a href="me.html">
+            
+                    
+                    设置个人信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    支付统一下单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    交易记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="ota.html">
+            
+                <a href="ota.html">
+            
+                    
+                    ota版本升级
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="mobile_repalce.html">
+            
+                <a href="mobile_repalce.html">
+            
+                    
+                    手机号码更换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.17" data-path="site_notice.html">
+            
+                <a href="site_notice.html">
+            
+                    
+                    站内消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18" data-path="slider.html">
+            
+                <a href="slider.html">
+            
+                    
+                    幻灯片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19" data-path="categorys.html">
+            
+                <a href="categorys.html">
+            
+                    
+                    用户分类列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20" data-path="label.html">
+            
+                <a href="label.html">
+            
+                    
+                    动态标签列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.21" data-path="search.html">
+            
+                <a href="search.html">
+            
+                    
+                    全站搜索
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >全局错误码</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="&#x5168;&#x5C40;&#x9519;&#x8BEF;&#x7801;">&#x5168;&#x5C40;&#x9519;&#x8BEF;&#x7801;</h3>
+<hr>
+<h4 id="&#x4E1A;&#x52A1;&#x9519;&#x8BEF;&#x7801;">&#x4E1A;&#x52A1;&#x9519;&#x8BEF;&#x7801;</h4>
+<blockquote>
+<p>&#x7CFB;&#x7EDF;&#x5185;&#x90E8;&#x81EA;&#x5B9A;&#x4E49;&#x9519;&#x8BEF;&#x7801;</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x9519;&#x8BEF;&#x7801;</th>
+<th style="text-align:left">&#x6807;&#x8BC6;</th>
+<th style="text-align:left">&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">0</td>
+<td style="text-align:left">success</td>
+<td style="text-align:left">&#x65E0;&#x9519;&#x8BEF; </td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="http-&#x9519;&#x8BEF;&#x7801;">Http &#x9519;&#x8BEF;&#x7801;</h4>
+<blockquote>
+<p>Http &#x6807;&#x51C6;&#x54CD;&#x5E94;&#x4F53; status code</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x9519;&#x8BEF;&#x7801;</th>
+<th style="text-align:left">&#x5206;&#x6BB5;&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">100</td>
+<td style="text-align:left">Continue</td>
+</tr>
+<tr>
+<td style="text-align:left">101</td>
+<td style="text-align:left">Switching Protocols</td>
+</tr>
+<tr>
+<td style="text-align:left">102</td>
+<td style="text-align:left">Processing            // RFC2518</td>
+</tr>
+<tr>
+<td style="text-align:left">103</td>
+<td style="text-align:left">Early Hints</td>
+</tr>
+<tr>
+<td style="text-align:left">200</td>
+<td style="text-align:left">OK</td>
+</tr>
+<tr>
+<td style="text-align:left">201</td>
+<td style="text-align:left">Created</td>
+</tr>
+<tr>
+<td style="text-align:left">202</td>
+<td style="text-align:left">Accepted</td>
+</tr>
+<tr>
+<td style="text-align:left">203</td>
+<td style="text-align:left">Non-Authoritative Information</td>
+</tr>
+<tr>
+<td style="text-align:left">204</td>
+<td style="text-align:left">No Content</td>
+</tr>
+<tr>
+<td style="text-align:left">205</td>
+<td style="text-align:left">Reset Content</td>
+</tr>
+<tr>
+<td style="text-align:left">206</td>
+<td style="text-align:left">Partial Content</td>
+</tr>
+<tr>
+<td style="text-align:left">207</td>
+<td style="text-align:left">Multi-Status          // RFC4918</td>
+</tr>
+<tr>
+<td style="text-align:left">208</td>
+<td style="text-align:left">Already Reported      // RFC5842</td>
+</tr>
+<tr>
+<td style="text-align:left">226</td>
+<td style="text-align:left">IM Used               // RFC3229</td>
+</tr>
+<tr>
+<td style="text-align:left">300</td>
+<td style="text-align:left">Multiple Choices</td>
+</tr>
+<tr>
+<td style="text-align:left">301</td>
+<td style="text-align:left">Moved Permanently</td>
+</tr>
+<tr>
+<td style="text-align:left">302</td>
+<td style="text-align:left">Found</td>
+</tr>
+<tr>
+<td style="text-align:left">303</td>
+<td style="text-align:left">See Other</td>
+</tr>
+<tr>
+<td style="text-align:left">304</td>
+<td style="text-align:left">Not Modified</td>
+</tr>
+<tr>
+<td style="text-align:left">305</td>
+<td style="text-align:left">Use Proxy</td>
+</tr>
+<tr>
+<td style="text-align:left">307</td>
+<td style="text-align:left">Temporary Redirect</td>
+</tr>
+<tr>
+<td style="text-align:left">308</td>
+<td style="text-align:left">Permanent Redirect    // RFC7238</td>
+</tr>
+<tr>
+<td style="text-align:left">400</td>
+<td style="text-align:left">Bad Request</td>
+</tr>
+<tr>
+<td style="text-align:left">401</td>
+<td style="text-align:left">Unauthorized</td>
+</tr>
+<tr>
+<td style="text-align:left">402</td>
+<td style="text-align:left">Payment Required</td>
+</tr>
+<tr>
+<td style="text-align:left">403</td>
+<td style="text-align:left">Forbidden</td>
+</tr>
+<tr>
+<td style="text-align:left">404</td>
+<td style="text-align:left">Not Found</td>
+</tr>
+<tr>
+<td style="text-align:left">405</td>
+<td style="text-align:left">Method Not Allowed</td>
+</tr>
+<tr>
+<td style="text-align:left">406</td>
+<td style="text-align:left">Not Acceptable</td>
+</tr>
+<tr>
+<td style="text-align:left">407</td>
+<td style="text-align:left">Proxy Authentication Required</td>
+</tr>
+<tr>
+<td style="text-align:left">408</td>
+<td style="text-align:left">Request Timeout</td>
+</tr>
+<tr>
+<td style="text-align:left">409</td>
+<td style="text-align:left">Conflict</td>
+</tr>
+<tr>
+<td style="text-align:left">410</td>
+<td style="text-align:left">Gone</td>
+</tr>
+<tr>
+<td style="text-align:left">411</td>
+<td style="text-align:left">Length Required</td>
+</tr>
+<tr>
+<td style="text-align:left">412</td>
+<td style="text-align:left">Precondition Failed</td>
+</tr>
+<tr>
+<td style="text-align:left">413</td>
+<td style="text-align:left">Payload Too Large</td>
+</tr>
+<tr>
+<td style="text-align:left">414</td>
+<td style="text-align:left">URI Too Long</td>
+</tr>
+<tr>
+<td style="text-align:left">415</td>
+<td style="text-align:left">Unsupported Media Type</td>
+</tr>
+<tr>
+<td style="text-align:left">416</td>
+<td style="text-align:left">Range Not Satisfiable</td>
+</tr>
+<tr>
+<td style="text-align:left">417</td>
+<td style="text-align:left">Expectation Failed</td>
+</tr>
+<tr>
+<td style="text-align:left">418</td>
+<td style="text-align:left">I\m a teapot&apos;                          // RFC2324</td>
+</tr>
+<tr>
+<td style="text-align:left">421</td>
+<td style="text-align:left">Misdirected Request                    // RFC7540</td>
+</tr>
+<tr>
+<td style="text-align:left">422</td>
+<td style="text-align:left">Unprocessable Entity                   // RFC4918</td>
+</tr>
+<tr>
+<td style="text-align:left">423</td>
+<td style="text-align:left">Locked                                 // RFC4918</td>
+</tr>
+<tr>
+<td style="text-align:left">424</td>
+<td style="text-align:left">Failed Dependency                      // RFC4918</td>
+</tr>
+<tr>
+<td style="text-align:left">425</td>
+<td style="text-align:left">Too Early                              // RFC-ietf-httpbis-replay-04</td>
+</tr>
+<tr>
+<td style="text-align:left">426</td>
+<td style="text-align:left">Upgrade Required                       // RFC2817</td>
+</tr>
+<tr>
+<td style="text-align:left">428</td>
+<td style="text-align:left">Precondition Required                  // RFC6585</td>
+</tr>
+<tr>
+<td style="text-align:left">429</td>
+<td style="text-align:left">Too Many Requests                      // RFC6585</td>
+</tr>
+<tr>
+<td style="text-align:left">431</td>
+<td style="text-align:left">Request Header Fields Too Large        // RFC6585</td>
+</tr>
+<tr>
+<td style="text-align:left">451</td>
+<td style="text-align:left">Unavailable For Legal Reasons          // RFC7725</td>
+</tr>
+<tr>
+<td style="text-align:left">500</td>
+<td style="text-align:left">Internal Server Error</td>
+</tr>
+<tr>
+<td style="text-align:left">501</td>
+<td style="text-align:left">Not Implemented</td>
+</tr>
+<tr>
+<td style="text-align:left">502</td>
+<td style="text-align:left">Bad Gateway</td>
+</tr>
+<tr>
+<td style="text-align:left">503</td>
+<td style="text-align:left">Service Unavailable</td>
+</tr>
+<tr>
+<td style="text-align:left">504</td>
+<td style="text-align:left">Gateway Timeout</td>
+</tr>
+<tr>
+<td style="text-align:left">505</td>
+<td style="text-align:left">HTTP Version Not Supported</td>
+</tr>
+<tr>
+<td style="text-align:left">506</td>
+<td style="text-align:left">Variant Also Negotiates                 // RFC2295</td>
+</tr>
+<tr>
+<td style="text-align:left">507</td>
+<td style="text-align:left">Insufficient Storage                    // RFC4918</td>
+</tr>
+<tr>
+<td style="text-align:left">508</td>
+<td style="text-align:left">Loop Detected                           // RFC5842</td>
+</tr>
+<tr>
+<td style="text-align:left">510</td>
+<td style="text-align:left">Not Extended                            // RFC2774</td>
+</tr>
+<tr>
+<td style="text-align:left">511</td>
+<td style="text-align:left">Network Authentication Required</td>
+</tr>
+</tbody>
+</table>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="modify_record.html" class="navigation navigation-prev " aria-label="Previous page: 修改记录">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="structure.html" class="navigation navigation-next " aria-label="Next page: 请求和返回公共结构">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"全局错误码","level":"1.2.2","depth":2,"next":{"title":"请求和返回公共结构","level":"1.2.3","depth":2,"path":"structure.md","ref":"structure.md","articles":[]},"previous":{"title":"修改记录","level":"1.2.1","depth":2,"path":"modify_record.md","ref":"modify_record.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"back-to-top-button":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"zeni18","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"社交圈","language":"zh-hans","links":{},"gitbook":"*","description":"select * from learn"},"file":{"path":"error_no.md","mtime":"2022-02-26T17:36:45.565Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-02-25T18:28:16.660Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
